@@ -9,5 +9,5 @@ tortor nunc lectus. Vitae vitae tortor urna sodales mi. </p>
 <button class="btn-dark-green">Shop Now</button>
 </div>
 </div>
-<x-product-list></x-product-list>
+<x-product-list :products="$products" :admin="$admin"></x-product-list>
 @endsection
